@@ -1,29 +1,20 @@
 # softtech-gallery-frontend
 
-## Project setup
-```
-npm install
+A gallery application
+
+## Prerequisites
+
+- Git
+- Node.js
+- [softtech-gallery-backend](https://github.com/ismailarilik/softtech-gallery-backend)
+
+## Install and Use
+
+```sh
+> git clone https://github.com/ismailarilik/softtech-gallery-frontend.git
+> cd softtech-gallery-frontend
+> npm i
+> npx http-server dist
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Then navigate to [http://localhost:8080/](http://localhost:8080/).
