@@ -27,7 +27,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      files: [],
+      // Images which are fetched from the server
       images: []
     }
   },
