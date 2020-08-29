@@ -53,7 +53,7 @@ export default {
         formData.append('file', file)
 
         try {
-          const response = await http.post('/upload', formData)
+          const response = await http.post('/images', formData)
           console.log(response)
         } catch (err) {
           console.log(err)
