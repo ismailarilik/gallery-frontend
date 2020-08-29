@@ -5,7 +5,6 @@
         <b-col cols="auto">
           <b-form-file
             v-model="files"
-            accept="image/*"
             :state="Boolean(files.length)"
             browse-text="Göz at..."
             placeholder="Dosya seç veya buraya sürükle"
