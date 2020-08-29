@@ -14,6 +14,7 @@ A gallery application
 > git clone https://github.com/ismailarilik/softtech-gallery-frontend.git
 > cd softtech-gallery-frontend
 > npm i
+> npm run build
 > npx http-server dist
 ```
 
