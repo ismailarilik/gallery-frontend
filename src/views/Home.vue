@@ -28,6 +28,12 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  data () {
+    return {
+      files: [],
+      file: null
+    }
+  }
 }
 </script>
