@@ -7,6 +7,7 @@
         </b-col>
       </b-row>
       <b-row align-h="center">
+        <!-- List uploaded images -->
         <b-col v-for="image in images" xl="2" md="3" xs="4" :key="image">
           <b-img-lazy :src="getImageUrl(image)" fluid></b-img-lazy>
         </b-col>
@@ -37,6 +38,7 @@ export default {
     }
   },
   async created () {
+    // Fetch images
     const response = await http.get('/images')
     this.images = response.data
   },

@@ -1,5 +1,6 @@
 <template>
   <div class="upload-form">
+    <!-- The form for file upload button -->
     <b-form enctype="multipart/form-data">
       <b-form-file
         v-model="files"
@@ -19,6 +20,7 @@
 import axios from 'axios'
 
 const http = axios.create({
+  // Base URL of the server
   baseURL: 'http://localhost:3000/'
 })
 
@@ -35,6 +37,7 @@ export default {
       return `http://localhost:3000/${image}`
     },
     async onSubmit () {
+      // Submit images one by one
       for (let i = 0; i < this.files.length; i++) {
         const file = this.files[i]
 
@@ -42,9 +45,11 @@ export default {
         formData.append('file', file)
 
         try {
+          // Upload the image
           const response = await http.post('/images', formData)
           console.log(response)
         } catch (err) {
+          // Log errors
           console.log(err)
         }
       }
