@@ -26,8 +26,8 @@ export default {
   name: 'UploadForm',
   data () {
     return {
-      files: [],
-      images: []
+      // Files to upload
+      files: []
     }
   },
   methods: {
