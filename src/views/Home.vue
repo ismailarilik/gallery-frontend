@@ -20,6 +20,8 @@
 import UploadForm from '@/components/UploadForm.vue'
 import axios from 'axios'
 
+const imagesStaticPath = 'images'
+
 const http = axios.create({
   baseURL: 'http://localhost:3000/'
 })
@@ -34,7 +36,10 @@ export default {
   },
   methods: {
     getImageUrl (image) {
-      return `http://localhost:3000/${image}`
+      return `http://localhost:3000/${imagesStaticPath}/${image}`
+    },
+    addToImages (image) {
+      this.images.push(image)
     }
   },
   async created () {
