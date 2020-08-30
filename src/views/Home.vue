@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <b-container fluid>
-      <b-row align-h="end">
+      <b-row align-h="end" class="my-4">
         <b-col cols="auto">
           <upload-form />
         </b-col>
       </b-row>
-      <b-row align-h="center">
+      <b-row align-h="center" class="mb-3">
         <!-- List uploaded images -->
         <b-col v-for="image in images" xl="2" md="3" xs="4" :key="image">
           <b-img-lazy :src="getImageUrl(image)" fluid></b-img-lazy>
