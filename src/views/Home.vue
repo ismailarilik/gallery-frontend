@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row align-h="end" class="my-4">
         <b-col cols="auto">
-          <upload-form />
+          <upload-form :add-to-images="addToImages" />
         </b-col>
       </b-row>
       <b-row align-h="center" class="mb-3">

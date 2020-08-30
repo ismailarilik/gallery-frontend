@@ -26,6 +26,9 @@ const http = axios.create({
 
 export default {
   name: 'UploadForm',
+  props: [
+    'addToImages'
+  ],
   data () {
     return {
       // Files to upload
@@ -44,7 +47,7 @@ export default {
         try {
           // Upload the image
           const response = await http.post('/images', formData)
-          console.log(response)
+          this.addToImages(response.data.filename)
         } catch (err) {
           // Log errors
           console.log(err)
