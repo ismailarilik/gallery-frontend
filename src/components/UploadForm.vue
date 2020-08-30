@@ -33,9 +33,6 @@ export default {
     }
   },
   methods: {
-    getImageUrl (image) {
-      return `http://localhost:3000/${image}`
-    },
     async onSubmit () {
       // Submit images one by one
       for (let i = 0; i < this.files.length; i++) {
