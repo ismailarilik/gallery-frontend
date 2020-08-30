@@ -1,7 +1,7 @@
 <template>
   <div class="upload-form">
     <!-- The form for file upload button -->
-    <b-form enctype="multipart/form-data">
+    <b-form ref="upload-form" enctype="multipart/form-data">
       <b-form-file
         v-model="files"
         @input="onSubmit"
