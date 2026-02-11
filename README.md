@@ -1,4 +1,4 @@
-# softtech-gallery-frontend [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# gallery-frontend [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A gallery application
 
@@ -6,13 +6,13 @@ A gallery application
 
 - Git
 - Node.js
-- [softtech-gallery-backend](https://github.com/ismailarilik/softtech-gallery-backend)
+- [gallery-backend](https://github.com/ismailarilik/gallery-backend)
 
 ## Install and Use
 
 ```sh
-> git clone https://github.com/ismailarilik/softtech-gallery-frontend.git
-> cd softtech-gallery-frontend
+> git clone https://github.com/ismailarilik/gallery-frontend.git
+> cd gallery-frontend
 > npm i
 > npm run serve
 ```
