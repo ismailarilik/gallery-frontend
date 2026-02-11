@@ -9,7 +9,6 @@
     "ms-vscode.js-debug-nightly",
     "DavidAnson.vscode-markdownlint",
     "maty.vscode-mocha-sidebar",
-    "eg2.vscode-npm-script",
     "christian-kohler.npm-intellisense",
     "Vue.volar"
   ],
