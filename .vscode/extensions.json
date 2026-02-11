@@ -4,7 +4,7 @@
 
   // List of extensions which should be recommended for users of this workspace.
   "recommendations": [
-  "EditorConfig.EditorConfig",
+    "EditorConfig.EditorConfig",
     "dbaeumer.vscode-eslint",
     "ms-vscode.js-debug-nightly",
     "DavidAnson.vscode-markdownlint",
